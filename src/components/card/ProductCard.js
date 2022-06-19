@@ -24,7 +24,7 @@ export default function ProductCard({ item, index }) {
               </p>
             </h5>
             <p className="card-text m-0 fw-light p-0 ">
-              Rp. {convertRupiah.convert(item.price)}
+               {convertRupiah.convert(item.price)}
             </p>
             <p className="card-text m-0 ">Stock: {item.qty}</p>
           </div>

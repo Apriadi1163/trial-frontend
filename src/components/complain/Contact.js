@@ -1,6 +1,7 @@
 import React from "react";
 
 import default_profile from "../../assets/blank-profile.png"
+// import imgblank from "../../assets/blank-profile1.png"
 
 export default function Contact({ dataContact, clickContact, contact }) {
   return (
